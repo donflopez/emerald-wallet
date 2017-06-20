@@ -9,7 +9,7 @@
   ],
   "version": "0.1.0",
   "description": "Emerald - Ethereum Classic Wallet",
-  "main": "./build/main.js",
+  "main": "./app/main.js",
   "moduleRoots": [
     "src/lib"
   ],
@@ -24,7 +24,7 @@
     "package": "npm run build && NODE_ENV=production node electron/package.js",
     "package:all": "npm run package -- --all",
     "postinstall": "install-app-deps",
-    "dist": "build -mwl --x64 --ia32"
+    "dist": "build -m"
   },
   "keywords": [
     "react",
@@ -54,7 +54,7 @@
     "ethereumjs-util": "5.1.1",
     "fbjs": "0.8.9",
     "flexboxgrid": "^6.3.0",
-    "follow-redirects": "1.2.3",
+    "follow-redirects": "^1.2.3",
     "font-awesome": "4.7.0",
     "i18next": "^8.3.0",
     "i18next-browser-languagedetector": "^1.0.1",
@@ -88,7 +88,7 @@
     "redux-thunk": "2.2.0",
     "roboto-fontface": "0.7.0",
     "store": "^2.0.4",
-    "unzip2": "0.2.5"
+    "unzip2": "^0.2.5"
   },
   "devDependencies": {
     "@elastic/webpack-directory-name-as-main": "2.0.2",

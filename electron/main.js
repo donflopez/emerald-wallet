@@ -38,7 +38,7 @@ app.on('ready', () => {
     }).catch((err) => {
         log.error("Unable to download Geth", err);
     });
-    
+
     let emerald = launchEmerald();
     emerald.on('exit', (code) => {
         console.log('emerald process exited with code ' + code);
