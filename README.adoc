@@ -89,6 +89,14 @@ $ npm run package:all
 
 Note: Packaging for Windows platform on Linux needs Wine to be installed.
 
+## Dist
+
+If you're on OSX, building for win, lin, and osx:
+```
+$ brew install rpm
+$ npm run dist
+```
+
 
 # License
 

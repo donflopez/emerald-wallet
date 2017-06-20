@@ -1,0 +1,1 @@
+convert ETC_LogoTxt_Full_Color_BLACK_Transparent.png -background none -gravity center -extent 500x500 ETC_LogoTxt_Full_Color_BLACK_Transparent_square.png
